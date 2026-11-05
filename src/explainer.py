@@ -258,6 +258,8 @@ def visit_note(topic_ids, red_flags, duration="not sure", pattern="not sure",
     if observations:
         lines.append("My own observations (dates and notes I entered):")
         for obs in observations:
+            if not isinstance(obs, dict):
+                raise ValueError("each observation must be an object with date, topic and note")
             lines.append("- " + str(obs.get("date", "")) + " | " +
                          str(obs.get("topic", "")) + " | " + str(obs.get("note", ""))[:200])
         lines.append("")

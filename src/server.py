@@ -81,7 +81,7 @@ class Handler(BaseHTTPRequestHandler):
                     data.get("observations", []),
                 )
                 return self._send_json(200, {"visit_note": text})
-        except (ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
+        except (ValueError, KeyError, TypeError, AttributeError, json.JSONDecodeError) as exc:
             return self._send_json(400, {"error": str(exc)})
         return self._send_json(404, {"error": "not found"})
 
