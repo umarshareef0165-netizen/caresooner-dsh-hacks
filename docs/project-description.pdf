@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F 5 0 R /FB 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3017 >>
+stream
+BT
+/FB 16 Tf 1 0 0 1 48 770.0 Tm (CareSooner ? Early Health Concern Explainer) Tj
+/F 9 Tf 1 0 0 1 48 757.0 Tm (DSH Hacks V2 ? AI x Healthcare  |  By Umar Shareef \(solo\)  |  General information only ? not a diagnosis) Tj
+/FB 11 Tf 1 0 0 1 48 736.0 Tm (Problem) Tj
+/F 10 Tf 1 0 0 1 48 722.5 Tm (When a health concern appears, people often do not know what to notice, what counts as) Tj
+/F 10 Tf 1 0 0 1 48 709.0 Tm (urgent, or what to ask a clinician. That confusion delays care, and a first appointment is) Tj
+/F 10 Tf 1 0 0 1 48 695.5 Tm (often spent trying to describe a pattern from memory instead of discussing it.) Tj
+/FB 11 Tf 1 0 0 1 48 676.5 Tm (Solution) Tj
+/F 10 Tf 1 0 0 1 48 663.0 Tm (CareSooner is a web app that turns a confusing concern into plain-language general) Tj
+/F 10 Tf 1 0 0 1 48 649.5 Tm (information in four steps: \(1\) choose up to three concern topics; \(2\) run a red-flag safety) Tj
+/F 10 Tf 1 0 0 1 48 636.0 Tm (check, shown first if any red flag applies; \(3\) track dated observations in the browser to) Tj
+/F 10 Tf 1 0 0 1 48 622.5 Tm (spot a repeating or worsening pattern early; \(4\) generate a printable visit-prep note with) Tj
+/F 10 Tf 1 0 0 1 48 609.0 Tm (questions for a clinician.) Tj
+/FB 11 Tf 1 0 0 1 48 590.0 Tm (How it works ? and why it is honest) Tj
+/F 10 Tf 1 0 0 1 48 576.5 Tm (The engine is a transparent rule set \(rules R1-R6, shown in the app\). No machine-learning) Tj
+/F 10 Tf 1 0 0 1 48 563.0 Tm (model, no external API, no black-box score. Red flags always come first. The app never names) Tj
+/F 10 Tf 1 0 0 1 48 549.5 Tm (a cause, never predicts a disease, and never says what a user has. Every result carries the) Tj
+/F 10 Tf 1 0 0 1 48 536.0 Tm (same disclaimer, and the tracker stores data only in the visitor's own browser; the server) Tj
+/F 10 Tf 1 0 0 1 48 522.5 Tm (is stateless and stores nothing.) Tj
+/FB 11 Tf 1 0 0 1 48 503.5 Tm (What was built) Tj
+/F 10 Tf 1 0 0 1 48 490.0 Tm (A working prototype: Python standard library server, plain HTML/CSS/JavaScript front end,) Tj
+/F 10 Tf 1 0 0 1 48 476.5 Tm (eight concern topics, a ten-item red-flag check, a browser-only change tracker, and a visit-) Tj
+/F 10 Tf 1 0 0 1 48 463.0 Tm (note generator. Tests cover the safety rules, including red-flag priority, invalid inputs,) Tj
+/F 10 Tf 1 0 0 1 48 449.5 Tm (and a ban on diagnosis wording in all output.) Tj
+/FB 11 Tf 1 0 0 1 48 430.5 Tm (Limits and next steps) Tj
+/F 10 Tf 1 0 0 1 48 417.0 Tm (Limits: general information only; not validated on patients or medical records; English only) Tj
+/F 10 Tf 1 0 0 1 48 403.5 Tm (for now. Next: clinician review of the information text, more languages, and accessibility) Tj
+/F 10 Tf 1 0 0 1 48 390.0 Tm (testing with real users ? before any claim beyond general information is ever made.) Tj
+/FB 11 Tf 1 0 0 1 48 371.0 Tm (Built with) Tj
+/F 10 Tf 1 0 0 1 48 357.5 Tm (Python \(standard library only\), HTML, CSS, JavaScript. No accounts, no database, no API) Tj
+/F 10 Tf 1 0 0 1 48 344.0 Tm (keys.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000250 00000 n 
+0000003319 00000 n 
+0000003389 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3464
+%%EOF
